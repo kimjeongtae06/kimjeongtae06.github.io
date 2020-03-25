@@ -10,3 +10,6 @@ p {
 h6 {
   font-family: Arial;
 }
+li {
+  display: inline-block;
+}
