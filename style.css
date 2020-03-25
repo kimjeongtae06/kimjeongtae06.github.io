@@ -10,6 +10,8 @@ p {
 h6 {
   font-family: Arial;
 }
-li {
-  display: inline-block;
+ul {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
 }
