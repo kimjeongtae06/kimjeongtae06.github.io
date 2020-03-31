@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+}
+p {
+  color: green;
+}
+.char-list li{
+  color: blue;
+}
+h6 {
+  font-family: Arial;
+}
+ul {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 20px;
+  border: 3px solid blue;
+}
