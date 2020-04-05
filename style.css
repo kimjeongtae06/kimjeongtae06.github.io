@@ -1,11 +1,20 @@
 body {
   text-align: center;
+  margin-left: 100px;
+  font-family: 'Source Code Pro', monospace;
 }
 p {
   color: green;
+  font-size: 20px;
 }
 .char-list li{
   color: blue;
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 30px;
 }
 h6 {
   font-family: Arial;
@@ -14,6 +23,12 @@ ul {
   display: table;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px 20px;
+  padding: 10px 30px;
   border: 3px solid blue;
+  font-size: 20px;
+}
+a {
+  font-size: 30px;
+  text-decoration: none;
+  color: gray;
 }
