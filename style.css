@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  margin-left: 100px;
+  margin-top: 80px;
   font-family: 'Source Code Pro', monospace;
 }
 p {
@@ -31,4 +31,8 @@ a {
   font-size: 30px;
   text-decoration: none;
   color: gray;
+}
+.rounded-circle {
+  border: 3px solid black;
+  width: 250px;
 }
