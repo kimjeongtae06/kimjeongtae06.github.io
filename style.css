@@ -3,7 +3,7 @@ body {
   margin-top: 80px;
   font-family: 'Source Code Pro', monospace;
 }
-p {
+.greeting {
   color: green;
   font-size: 20px;
 }
@@ -16,8 +16,9 @@ h1 {
 h2 {
   font-size: 30px;
 }
-h6 {
-  font-family: Arial;
+figcaption {
+  font-family: "Arial";
+  font-size: 20px;
 }
 ul {
   display: table;
@@ -35,4 +36,14 @@ a {
 .rounded-circle {
   border: 3px solid black;
   width: 250px;
+}
+.textCenter {
+  text-align: center;
+}
+footer p{
+  margin-top: 100px;
+}
+footer {
+  padding-bottom: 2px;
+  background-color: lightgray;
 }
