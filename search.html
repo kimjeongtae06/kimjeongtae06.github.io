@@ -34,12 +34,9 @@
                 $('form').attr('action', "https://search.naver.com/search.naver");
                 $('input').attr('name', "query");
             }
-            else if(platform === "daum"){
+            else {
                 $('form').attr('action', "https://search.daum.net/search");
                 $('input').attr('name', "q");
-            }
-            else {
-                alert("플랫폼을 설정해주십시오.");
             }
         });
     </script>
