@@ -30,13 +30,16 @@
                 $('form').attr('action', "https://www.google.com/search");
                 $('input').attr('name', "q");
             }
-            else if(platform == "daum"){
+            else if(platform === "naver"){
+                $('form').attr('action', "https://search.naver.com/search.naver");
+                $('input').attr('name', "query");
+            }
+            else if(platform === "daum"){
                 $('form').attr('action', "https://search.daum.net/search");
                 $('input').attr('name', "q");
             }
             else {
-                $('form').attr('action', "https://search.naver.com/search.naver");
-                $('input').attr('name', "query");
+                alert("플랫폼을 설정해주십시오.");
             }
         });
     </script>
