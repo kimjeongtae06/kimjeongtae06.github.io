@@ -45,6 +45,6 @@ footer p{
   margin-top: 100px;
 }
 footer {
-  padding-bottom: 2px;
+  vertical-align: bottom;
   background-color: lightgray;
 }
