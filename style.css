@@ -18,7 +18,7 @@ h1 {
 h2 {
   font-size: 30px;
 }
-figcaption {
+.arial {
   font-family: "Arial";
   font-size: 20px;
 }
@@ -40,11 +40,12 @@ a {
   width: 250px;
 }
 footer p{
-  font-family: "Arial";
-  font-size: 20px;
   margin-top: 100px;
+  margin-bottom: 0;
 }
 footer {
-  vertical-align: bottom;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   background-color: lightgray;
 }
