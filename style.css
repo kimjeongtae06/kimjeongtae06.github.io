@@ -1,6 +1,8 @@
 body {
   text-align: center;
   margin-top: 80px;
+}
+header, main {
   font-family: 'Source Code Pro', monospace;
 }
 .greeting {
@@ -36,9 +38,6 @@ a {
 .rounded-circle {
   border: 3px solid black;
   width: 250px;
-}
-.textCenter {
-  text-align: center;
 }
 footer p{
   margin-top: 100px;
